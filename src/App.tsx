@@ -14,7 +14,6 @@ import {
 } from "motion/react";
 import {
   ArrowRight,
-  ChevronDown,
   MapPin,
   Volume2,
   VolumeX,
@@ -325,13 +324,6 @@ function Hero() {
           16.09.2026
         </p>
       </motion.div>
-      <a
-        className="absolute right-6 bottom-[22px] z-20 grid h-9 w-[22px] place-items-center rounded-full border border-white/80"
-        href="#invitation"
-        aria-label="Перейти к приглашению"
-      >
-        <ChevronDown size={13} className="animate-bounce" />
-      </a>
     </section>
   );
 }
