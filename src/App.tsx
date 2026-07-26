@@ -466,7 +466,7 @@ function Schedule() {
           <time className="mt-5 font-serif text-[clamp(48px,14vw,75px)] leading-[0.8]" dateTime="2026-09-16">
             16.09.2026
           </time>
-          <em className="mt-3 font-script text-[44px] leading-[0.7] text-gold">Среда</em>
+          <em className="mt-6 font-script text-[44px] leading-[0.8] text-gold">Среда</em>
         </div>
         <ScheduleEvent icon={clockIcon} title="Сбор гостей" time="17:00" headingId="schedule-title" />
         <ScheduleEvent icon={glassesIcon} title="Начало мероприятия" time="18:00" />
