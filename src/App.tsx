@@ -250,8 +250,8 @@ function SoundControl() {
         whileTap={{ scale: 0.96 }}
         onClick={toggle}
       >
-        {playing ? <Volume2 size={14} /> : <VolumeX size={14} />}
-        <span className="font-sans text-[9px] font-medium tracking-[0.22em] uppercase">
+        {playing ? <Volume2 size={15} strokeWidth={2.2} /> : <VolumeX size={15} strokeWidth={2.2} />}
+        <span className="font-sans text-[10px] font-semibold tracking-[0.18em] uppercase">
           {playing ? "Выключить" : "Включить"}
         </span>
       </motion.button>
