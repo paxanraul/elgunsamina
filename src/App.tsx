@@ -315,11 +315,11 @@ function Hero() {
         </p>
         <h1
           id="hero-title"
-          className="m-0 font-serif text-[clamp(63px,17.2vw,94px)] leading-[0.76] tracking-[-0.035em]"
+          className="m-0 grid justify-items-center gap-[21px] font-serif text-[clamp(63px,17.2vw,94px)] leading-[0.76] tracking-[-0.035em]"
         >
-          Elgun
-          <span className="my-[21px] block text-[0.65em]">&amp;</span>
-          Samina
+          <span>Elgun</span>
+          <span className="block w-full text-center text-[0.65em] leading-[0.76]">&amp;</span>
+          <span>Samina</span>
         </h1>
         <p className="mt-[29px] font-serif text-[clamp(24px,6.5vw,35px)] tracking-[0.02em]">
           16.09.2026
@@ -582,10 +582,10 @@ function Farewell() {
           ~
         </span>
         <p className="mb-[42px] font-serif text-[clamp(36px,10vw,52px)]">До встречи!</p>
-        <h2 className="font-serif text-[clamp(56px,15vw,79px)] leading-[0.75] tracking-[-0.035em]">
-          Elgun
-          <span className="my-[18px] block text-[0.65em]">&amp;</span>
-          Samina
+        <h2 className="grid justify-items-center gap-[18px] font-serif text-[clamp(56px,15vw,79px)] leading-[0.75] tracking-[-0.035em]">
+          <span>Elgun</span>
+          <span className="block w-full text-center text-[0.65em] leading-[0.75]">&amp;</span>
+          <span>Samina</span>
         </h2>
         <time className="mt-[39px] block font-serif text-[clamp(29px,8vw,41px)]" dateTime="2026-09-16">
           16.09.2026
