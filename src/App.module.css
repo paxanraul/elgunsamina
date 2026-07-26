@@ -101,14 +101,17 @@
   top: calc(env(safe-area-inset-top, 0px) + 22px);
   right: 165px;
   margin: 0;
-  color: #8a6827;
+  color: #d6a63f;
   font-family: var(--font-serif);
   font-size: 13px;
+  font-weight: 600;
   font-style: italic;
   line-height: 1;
   letter-spacing: 0.03em;
   white-space: nowrap;
-  text-shadow: 0 1px 5px rgb(255 251 241 / 85%);
+  text-shadow:
+    0 1px 2px rgb(40 28 8 / 70%),
+    0 0 7px rgb(255 248 226 / 70%);
 }
 
 .soundHint::after {
