@@ -101,19 +101,26 @@
   top: calc(env(safe-area-inset-top, 0px) + 22px);
   right: 165px;
   margin: 0;
-  color: #151412;
+  padding: 5px 9px 6px;
+  color: #8a6827;
   font-family: var(--font-serif);
-  font-size: 12px;
+  font-size: 13px;
   font-style: italic;
   line-height: 1;
   letter-spacing: 0.03em;
   white-space: nowrap;
+  background: rgb(255 251 241 / 88%);
+  border: 1px solid rgb(185 142 46 / 28%);
+  border-radius: 999px;
+  box-shadow: 0 4px 14px -7px rgb(0 0 0 / 35%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .soundHint::after {
   display: inline-block;
   width: 13px;
-  margin: 0 0 3px 7px;
+  margin: 0 0 3px 6px;
   border-top: 1px solid currentColor;
   content: "";
   opacity: 0.55;
