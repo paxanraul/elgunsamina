@@ -27,7 +27,7 @@ import calendarIcon from "../assets/icons/calendar.png";
 import clockIcon from "../assets/icons/clock.png";
 import glassesIcon from "../assets/icons/glasses.png";
 import locationIcon from "../assets/icons/location.png";
-import weddingTrack from "../assets/audio/sene-baxim.mp3";
+import weddingTrack from "../assets/audio/elgun1.mp3";
 import styles from "./App.module.css";
 
 const mapUrl =
