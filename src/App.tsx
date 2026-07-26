@@ -476,8 +476,11 @@ function Schedule() {
           >
             г.Москва, Ул. Гарибальди, 1А
           </a>
+          <p className="mt-3 font-serif text-[clamp(17px,4.8vw,22px)] leading-none text-[#8a6827]">
+            (Парковка платная!)
+          </p>
           <motion.a
-            className="mx-auto mt-6 flex h-[45px] w-[min(260px,82%)] items-center justify-between rounded-full border border-gold/60 px-[18px] font-sans text-[10px] font-medium tracking-[0.12em] uppercase"
+            className="mx-auto mt-5 flex h-[45px] w-[min(260px,82%)] items-center justify-between rounded-full border border-gold/60 px-[18px] font-sans text-[10px] font-medium tracking-[0.12em] uppercase"
             href={mapUrl}
             target="_blank"
             rel="noreferrer"
