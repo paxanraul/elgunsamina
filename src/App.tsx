@@ -326,7 +326,7 @@ function Hero() {
         </p>
       </motion.div>
       <a
-        className="absolute right-6 bottom-[22px] z-20 grid h-10 w-6 place-items-center rounded-full border border-[#b98e2e]/70 bg-[#fff7e6]/15 text-[#d6ae58] shadow-[0_4px_14px_-5px_rgba(0,0,0,0.45)] backdrop-blur-[3px]"
+        className="absolute right-6 bottom-[22px] z-20 grid h-10 w-6 place-items-center rounded-full border border-[#b98e2e]/70 bg-[#fff7e6]/95 text-[#8a6827] shadow-[0_5px_16px_-6px_rgba(0,0,0,0.45)]"
         href="#invitation"
         aria-label="Перейти к приглашению"
       >
